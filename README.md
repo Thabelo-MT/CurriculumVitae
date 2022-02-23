@@ -1,2 +1,2 @@
 # Creating-CV
-Creating a CV using HTML, CSS and JavaScript
+Created a CV using HTML and CSS
