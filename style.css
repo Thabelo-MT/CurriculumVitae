@@ -1,59 +1,30 @@
 body {
+    height: 100%;
     margin: 0%;
-    width: 99.8%;
-}
-.container {
-    display: flex;
-    height: fit-content;
-}
-
-.primary {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1%;
-    background-color: rgba(22, 104, 124, 0.911);
-}
-
-.success {
-    display: flex;
-    flex-direction: column;
-    background-color: beige;
-    height: max-content;
-}
-
-.Date {
-    padding-left: 60%;
-    display: flex;
-    text-decoration: underline;
-    /* font-style: bold; */
-}
-hr {
-    border: 0.5px double;
-    line-height: 1%;
-    width: 100%;
-    color: black;
-}
-.circle {
-        list-style:square;
-}
-h3 {
-    margin: 0%;
-}
-
-.ref > p {
-    display: flex;
-    padding-left: 12%;
-}
-
-article {
-    display: flex;
-    flex-wrap: wrap;
-}
-.contact > p {
-    display: flex;
-    padding-left: 2%;
-}
-h4 {
-    margin: 0%;
-    padding-left: 2%;
-}
+   }
+   .column1 {
+       float: left;
+       width: 30%;
+       height: 100%;
+       background-color: rgb(5, 117, 117,0.935);
+   }
+   .column1 header {
+       padding-top: 10%;
+       padding-bottom: 5%;
+   }
+   .column2{
+       float: right;
+       width: 70%;
+       height: 100%;
+       background-color: antiquewhite;
+   }
+   body hr {
+       border: 2px double;
+   }
+   .class-links:hover,
+   .class-links:visited {
+       text-decoration: none;
+   }
+   #Date {
+       padding-left: 60%;
+   }   
