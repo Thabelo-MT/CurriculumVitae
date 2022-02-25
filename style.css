@@ -1,12 +1,12 @@
 body {
     height: 100%;
     margin: 0%;
+    background-color: rgb(5, 117, 117,0.935);
    }
    .column1 {
        float: left;
        width: 30%;
        height: 100%;
-       background-color: rgb(5, 117, 117,0.935);
    }
    .column1 header {
        padding-top: 10%;
@@ -16,7 +16,7 @@ body {
        float: right;
        width: 70%;
        height: 100%;
-       background-color: antiquewhite;
+       background-color: whitesmoke;
    }
    body hr {
        border: 2px double;
