@@ -1,40 +1,76 @@
 body {
     margin: 0%;
     width: 99.8%;
+    background-color: gray;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    /* font-size: small; */
 }
 .container {
     display: flex;
     height: fit-content;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .primary {
     display: flex;
     flex-direction: column;
-    padding-left: 1%;
-    background-color: rgba(22, 104, 124, 0.911);
+    padding-left: 2.5%;
+    color: white;
+    background-color: rgba(23, 106, 124,10.911);
+    font-family:Arial, Helvetica, sans-serif;
 }
-
+.primary .page-header {
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    font-size: larger;
+}
+.contact-links{
+ color: white;
+}
+.contact-links:hover{
+    color: black;
+   }
+.line {
+    color: aliceblue;
+    width: 75%;
+    margin-top: 0;
+    margin-left: 0%;
+}
 .success {
     display: flex;
     flex-direction: column;
     background-color: beige;
     height: max-content;
+    padding-left: 2.5%;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
+.success .professional {
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
 .Date {
-    padding-left: 60%;
+    padding-left: 65%;
     display: flex;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* font-style: bold; */
 }
 hr {
     border: 0.5px double;
-    line-height: 1%;
-    width: 100%;
+    /* line-height: 1%; */
+    width: 98.6%;
     color: black;
+    margin-top: 0%;
 }
-.circle {
+.bullets {
         list-style:square;
+}
+h5{
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 h3 {
     margin: 0%;
